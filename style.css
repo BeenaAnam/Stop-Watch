@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url(./technics-clock-timepiece-laser-wallpaper-preview.jpg);
+  background-size: cover;
+  background: linear-gradient(to top left, black, aqua , aquamarine) center fixed;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.main {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  /* text-shadow: 10px 0 10px gray; */
+  background-image: url(./gradient-indigo-background-illustration-free-photo.jpg);
+  background-clip: text;
+  color: transparent;
+  background-color: white;
+}
+.stopWatch {
+  text-align: center;
+  background: #333;
+  background: #0e0e0e;
+  padding: 30px;
+  border-radius: 15px;
+  transition: box-shadow 0.7s;
+}
+.stopWatch:hover {
+  /* border: 5px double; */
+  box-shadow: 0 0 20px #000;
+}
+.head1 {
+  font-size: 2.5rem;
+  color: aquamarine;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+#display {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.startBtn {
+  background: green;
+  color: white;
+  transition: box-shadow 0.3s;
+  transition: border 0.3s;
+}
+.startBtn:hover {
+  box-shadow: 0 0 10px green;
+  border: 3px double;
+}
+.stopBtn {
+  background: red;
+  color: white;
+  transition: box-shadow 0.3s;
+  transition: border 0.3s;
+}
+.stopBtn:hover {
+  box-shadow: 0 0 10px red;
+  border: 3px double;
+}
+.resetBtn {
+  background: gray;
+  color: white;
+  transition: box-shadow 0.3s;
+  transition: border 0.3s;
+}
+.resetBtn:hover {
+  box-shadow: 0 0 10px gray;
+  border: 3px double;
+}
